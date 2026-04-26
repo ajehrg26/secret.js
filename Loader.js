@@ -1,8 +1,8 @@
 (async () => {
   try {
-    const repo = 'ajehrg26/Access1.js';
+    const repo = 'ajehrg26/secret.js';
     const branch = 'main';
-    const filePath = 'Access1.js'; 
+    const filePath = 'secret.js'; 
 
     // Get latest commit SHA to bypass caching
     const res = await fetch(`https://api.github.com/repos/${repo}/commits/${branch}`);
